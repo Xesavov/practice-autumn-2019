@@ -17,9 +17,15 @@ public class Task15 {
      */
 
     public static int number = 25;
+//
+//    public static int kvadr(int number){
+//        int rez = number*number;
+//        return  rez;
+//    }
 
     public static void main(String[] args) {
         //Измените код
-        System.out.println(Math.cos(number));
+        //System.out.println(Math.cos(kvadr(number))); //закомменченый вариант был через создание доп класса
+        System.out.println(number*number);
     }
 }
